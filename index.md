@@ -1,12 +1,18 @@
-## Bioinformatics word explain
+# Bioinformatics word explain
 
-You can use the [editor on GitHub](https://github.com/AfredComma/bioinformatics_words/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+We can view the page on [bionformatics_words](https://afredcomma.github.io/bioinformatics_words) .
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Raw reads preprocessing
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+###sequenced adapters
+from biostar https://www.biostars.org/p/145032/
+both PCR primers and sequence adaptors are artificial DNA oligonucleotides, generally of known sequence. The first are used to prime DNA replication reactions. Those used to amplify specific DNA sequences in vitro are called PCR primers. Sequence adaptors are any kind of short DNA sequence serving the scope of fishing a (generally unknown) DNA sequence of interest for various purposes; they are used in a variety of techniques, and sometimes can take part in a DNA replication step (e.g. in a 5'RACE). Depending on experimental protocols and following bioinformatics, both PCR primers and sequence adaptors can end up in raw sequence reads (for instance, this may occur if you are sequencing a DNA library).
+
+###Low-complexity region
+from wiki https://en.wikipedia.org/wiki/BLAST
+"Low-complexity region" means a region of a sequence composed of few kinds of elements. These regions might give high scores that confuse the program to find the actual significant sequences in the database, so they should be filtered out. The regions will be marked with an X (protein sequences) or N (nucleic acid sequences) and then be ignored by the BLAST program. To filter out the low-complexity regions, the SEG program is used for protein sequences and the program DUST is used for DNA sequences. On the other hand, the program XNU is used to mask off the tandem repeats in protein sequences.
 
 ```markdown
 Syntax highlighted code block
