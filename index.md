@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Bioinformatics word explain
 
 You can use the [editor on GitHub](https://github.com/AfredComma/bioinformatics_words/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
