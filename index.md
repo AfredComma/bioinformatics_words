@@ -18,3 +18,7 @@ both PCR primers and sequence adaptors are artificial DNA oligonucleotides, gene
 ### greengene
     from https://aem.asm.org/content/72/7/5069
 A 16S rRNA gene database (http://greengenes.lbl.gov) addresses limitations of public repositories by providing chimera screening, standard alignment, and taxonomic classification using multiple published taxonomies.
+
+### UNITE 
+    from https://academic.oup.com/nar/article/47/D1/D259/5146189
+UNITE (https://unite.ut.ee/) is a web-based database and sequence management environment for the molecular identification of fungi.
