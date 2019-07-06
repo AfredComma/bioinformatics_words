@@ -10,6 +10,13 @@ We can view the page on [bionformatics_words](https://afredcomma.github.io/bioin
 Circulating free DNA (cfDNA) are degraded DNA fragments released to the blood plasma. cfDNA can be used to describe various forms of DNA freely circulating the bloodstream, including circulating tumor DNA (ctDNA) and cell-free fetal DNA (cffDNA). Elevated levels of cfDNA are observed in cancer, especially in advanced disease.[1] There is evidence that cfDNA becomes increasingly frequent in circulation with the onset of age.[2] cfDNA has been shown to be a useful biomarker for a multitude of ailments other than cancer and fetal medicine. This includes but is not limited to trauma, sepsis, aseptic inflammation, myocardial infarction, stroke, transplantation, diabetes, and sickle cell disease.[3] cfDNA is mostly a double-stranded extracellular molecule of DNA, consisting of small fragments (70 to 200 bp) and larger fragments (21 kb).[4] and has been recognized as an accurate marker for the diagnosis of prostate cancer and breast cancer.[5]
 
 
+## Sample transport
+
+
+### one
+    from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6345613/
+Sample stability is an especially important consideration for the sequencing of RNA, which is labile and vulnerable to degradation by host and environmental RNase enzymes, but stability is also a factor for DNA as well. To minimize the possibility of nucleic acid degradation, the use of chemical DNA or RNA stabilizers at the time of sample collection may be considered. Formalin-fixed paraffin-embedded (FFPE) samples are also associated with nucleic acid degradation when they are allowed to stay unfixed for prolonged periods, and degradation is also enhanced by age and formalin-associated chemical modifications of RNA (48). When frozen, DNA and RNA remain relatively intact; however, multiple freeze–thaw steps during sample aliquoting and processing may result in nucleic acid degradation that is partly due to the release of endogenous nucleases (49).
+
 ## Raw reads preprocessing
 
 ### sequenced adapters
