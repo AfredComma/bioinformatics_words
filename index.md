@@ -2,6 +2,13 @@
 
 We can view the page on [bionformatics_words](https://afredcomma.github.io/bioinformatics_words) .
 
+## Sample Type
+
+### cfDNA
+    from https://en.wikipedia.org/wiki/Circulating_free_DNA
+
+Circulating free DNA (cfDNA) are degraded DNA fragments released to the blood plasma. cfDNA can be used to describe various forms of DNA freely circulating the bloodstream, including circulating tumor DNA (ctDNA) and cell-free fetal DNA (cffDNA). Elevated levels of cfDNA are observed in cancer, especially in advanced disease.[1] There is evidence that cfDNA becomes increasingly frequent in circulation with the onset of age.[2] cfDNA has been shown to be a useful biomarker for a multitude of ailments other than cancer and fetal medicine. This includes but is not limited to trauma, sepsis, aseptic inflammation, myocardial infarction, stroke, transplantation, diabetes, and sickle cell disease.[3] cfDNA is mostly a double-stranded extracellular molecule of DNA, consisting of small fragments (70 to 200 bp) and larger fragments (21 kb).[4] and has been recognized as an accurate marker for the diagnosis of prostate cancer and breast cancer.[5]
+
 
 ## Raw reads preprocessing
 
