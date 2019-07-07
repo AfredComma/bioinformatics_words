@@ -40,3 +40,8 @@ UNITE (https://unite.ut.ee/) is a web-based database and sequence management env
 ### NT database
     form https://www.ncbi.nlm.nih.gov/nucleotide?cmd=search
 The Nucleotide database is a collection of sequences from several sources, including GenBank, RefSeq, TPA and PDB. Genome, gene and transcript sequence data provide the foundation for biomedical research and discovery.
+
+
+### NR database
+    form http://www.matrixscience.com/help/seq_db_setup_nr.html
+The nr database is compiled by the NCBI (National Center for Biotechnology Information) as a protein database for Blast searches. It contains non-identical sequences from GenBank CDS translations, PDB, Swiss-Prot, PIR, and PRF. The strengths of nr are that it is comprehensive and frequently updated.
