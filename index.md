@@ -36,3 +36,7 @@ A 16S rRNA gene database (http://greengenes.lbl.gov) addresses limitations of pu
 ### UNITE 
     from https://academic.oup.com/nar/article/47/D1/D259/5146189
 UNITE (https://unite.ut.ee/) is a web-based database and sequence management environment for the molecular identification of fungi.
+
+### NT database
+    form https://www.ncbi.nlm.nih.gov/nucleotide?cmd=search
+The Nucleotide database is a collection of sequences from several sources, including GenBank, RefSeq, TPA and PDB. Genome, gene and transcript sequence data provide the foundation for biomedical research and discovery.
