@@ -40,6 +40,7 @@ UNITE (https://unite.ut.ee/) is a web-based database and sequence management env
 ### NT database
     from https://www.ncbi.nlm.nih.gov/nucleotide?cmd=search
 The Nucleotide database is a collection of sequences from several sources, including GenBank, RefSeq, TPA and PDB. Genome, gene and transcript sequence data provide the foundation for biomedical research and discovery.
+
     from https://ccb.jhu.edu/software/centrifuge/manual.shtml
 NCBI BLAST's nt database contains all spliced non-redundant coding sequences from multiplpe databases, inferred from genommic sequences. Traditionally used with BLAST, a download of the FASTA is provided on the NCBI homepage. 
 
