@@ -17,6 +17,12 @@ Circulating free DNA (cfDNA) are degraded DNA fragments released to the blood pl
     from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6345613/
 Sample stability is an especially important consideration for the sequencing of RNA, which is labile and vulnerable to degradation by host and environmental RNase enzymes, but stability is also a factor for DNA as well. To minimize the possibility of nucleic acid degradation, the use of chemical DNA or RNA stabilizers at the time of sample collection may be considered. Formalin-fixed paraffin-embedded (FFPE) samples are also associated with nucleic acid degradation when they are allowed to stay unfixed for prolonged periods, and degradation is also enhanced by age and formalin-associated chemical modifications of RNA (48). When frozen, DNA and RNA remain relatively intact; however, multiple freeze–thaw steps during sample aliquoting and processing may result in nucleic acid degradation that is partly due to the release of endogenous nucleases (49).
 
+## Sequencing quality control
+
+### method one
+    from https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html
+To estimate sequence quality along all sequences, we now use FastQC. It is an open-source tool that provides a simple way to quality control raw sequence data. It provides a modular set of analyses which you can use to give a quick impression of whether your data has any problems of which you should be aware before doing any further analysis.
+
 ## Raw reads preprocessing
 
 ### sequenced adapters
