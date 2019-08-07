@@ -32,6 +32,8 @@ both PCR primers and sequence adaptors are artificial DNA oligonucleotides, gene
 ### Low-complexity region    
     from wiki https://en.wikipedia.org/wiki/BLAST
 "Low-complexity region" means a region of a sequence composed of few kinds of elements. These regions might give high scores that confuse the program to find the actual significant sequences in the database, so they should be filtered out. The regions will be marked with an X (protein sequences) or N (nucleic acid sequences) and then be ignored by the BLAST program. To filter out the low-complexity regions, the SEG program is used for protein sequences and the program DUST is used for DNA sequences. On the other hand, the program XNU is used to mask off the tandem repeats in protein sequences.
+    from https://www.nature.com/articles/s41598-017-18695-y
+Regions within sequences that are composed of a lower diversity of residues (nucleotides or amino acids) compared to other areas can be defined as low complexity regions (LCRs).
 
 ### Contig
     from http://staden.sourceforge.net/contig.html
