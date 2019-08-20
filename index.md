@@ -85,3 +85,7 @@ SNAP is a new sequence aligner that is 3-20x faster and just as accurate as exis
 ### Kraken
     from https://ccb.jhu.edu/software/kraken/
 Kraken is a system for assigning taxonomic labels to short DNA sequences, usually obtained through metagenomic studies. Previous attempts by other bioinformatics software to accomplish this task have often used sequence alignment or machine learning techniques that were quite slow, leading to the development of less sensitive but much faster abundance estimation programs. Kraken aims to achieve high sensitivity and high speed by utilizing exact alignments of k-mers and a novel classification algorithm.
+
+### CLARK
+    from http://clark.cs.ucr.edu
+We present CLARK, a method based on a supervised sequence classification using discriminative k-mers. Considering two distinct specific classification problems (see the article for details), namely (1) the taxonomic classification of metagenomic reads to known bacterial genomes, and (2) the assignment of BAC clones and transcript to chromosome arms/centromeres (in the absence of a finished assembly for the reference genome), CLARK outperforms in classification speed and precision the best state-of-the-art methods. 
