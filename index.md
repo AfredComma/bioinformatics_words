@@ -89,3 +89,7 @@ Kraken is a system for assigning taxonomic labels to short DNA sequences, usuall
 ### CLARK
     from http://clark.cs.ucr.edu
 We present CLARK, a method based on a supervised sequence classification using discriminative k-mers. Considering two distinct specific classification problems (see the article for details), namely (1) the taxonomic classification of metagenomic reads to known bacterial genomes, and (2) the assignment of BAC clones and transcript to chromosome arms/centromeres (in the absence of a finished assembly for the reference genome), CLARK outperforms in classification speed and precision the best state-of-the-art methods. 
+
+### MetaOthello
+    from https://www.ncbi.nlm.nih.gov/pubmed/29036588
+We introduce MetaOthello, a probabilistic hashing classifier for metagenomic sequencing reads. The algorithm employs a novel data structure, called l-Othello, to support efficient querying of a taxon using its k-mer signatures. MetaOthello is an order-of-magnitude faster than the current state-of-the-art algorithms Kraken and Clark, and requires only one-third of the RAM. In comparison to Kaiju, a metagenomic classification tool using protein sequences instead of genomic sequences, MetaOthello is three times faster and exhibits 20-30% higher classification sensitivity. We report comparative analyses of both scalability and accuracy using a number of simulated and empirical datasets.
