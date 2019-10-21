@@ -68,7 +68,7 @@ NCBI BLAST's nt database contains all spliced non-redundant coding sequences fro
     from http://www.matrixscience.com/help/seq_db_setup_nr.html
 The nr database is compiled by the NCBI (National Center for Biotechnology Information) as a protein database for Blast searches. It contains non-identical sequences from GenBank CDS translations, PDB, Swiss-Prot, PIR, and PRF. The strengths of nr are that it is comprehensive and frequently updated.
 
-## Bioinformatical tools
+## Bioinformatical tools(Match)
 ### bowtie2
     from http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
 
@@ -100,3 +100,8 @@ MetaMaps is tool specifically developed for the analysis of long-read (PacBio/Ox
 It simultaenously carries out read assignment and sample composition estimation.
 It is faster than classical exact alignment-based approaches, and its output is more information-rich than that of kmer-spectra-based methods. For example, each MetaMaps alignment comes with an approximate alignment location, an estimated alignment identity and a mapping quality.
 The approximate mapping algorithm employed by MetaMaps is based on MashMap. MetaMaps adds a mapping quality model and EM-based estimation of sample composition.
+
+## Bioinformatical tools(assembly)
+### MEGAHIT
+    from https://github.com/voutcn/megahit
+MEGAHIT is an ultra-fast and memory-efficient NGS assembler. It is optimized for metagenomes, but also works well on generic single genome assembly (small or mammalian size) and single-cell assembly.
