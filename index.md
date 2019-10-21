@@ -93,3 +93,10 @@ We present CLARK, a method based on a supervised sequence classification using d
 ### MetaOthello
     from https://www.ncbi.nlm.nih.gov/pubmed/29036588
 We introduce MetaOthello, a probabilistic hashing classifier for metagenomic sequencing reads. The algorithm employs a novel data structure, called l-Othello, to support efficient querying of a taxon using its k-mer signatures. MetaOthello is an order-of-magnitude faster than the current state-of-the-art algorithms Kraken and Clark, and requires only one-third of the RAM. In comparison to Kaiju, a metagenomic classification tool using protein sequences instead of genomic sequences, MetaOthello is three times faster and exhibits 20-30% higher classification sensitivity. We report comparative analyses of both scalability and accuracy using a number of simulated and empirical datasets.
+
+### MetaMaps
+    from https://github.com/DiltheyLab/MetaMaps
+MetaMaps is tool specifically developed for the analysis of long-read (PacBio/Oxford Nanopore) metagenomic datasets.
+It simultaenously carries out read assignment and sample composition estimation.
+It is faster than classical exact alignment-based approaches, and its output is more information-rich than that of kmer-spectra-based methods. For example, each MetaMaps alignment comes with an approximate alignment location, an estimated alignment identity and a mapping quality.
+The approximate mapping algorithm employed by MetaMaps is based on MashMap. MetaMaps adds a mapping quality model and EM-based estimation of sample composition.
