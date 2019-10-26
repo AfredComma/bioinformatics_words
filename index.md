@@ -105,3 +105,11 @@ The approximate mapping algorithm employed by MetaMaps is based on MashMap. Meta
 ### MEGAHIT
     from https://github.com/voutcn/megahit
 MEGAHIT is an ultra-fast and memory-efficient NGS assembler. It is optimized for metagenomes, but also works well on generic single genome assembly (small or mammalian size) and single-cell assembly.
+
+
+## Intresting concept
+### CRISPR
+CRISPR (/ˈkrɪspər/) (clustered regularly interspaced short palindromic repeats) is a family of DNA sequences found within the genomes of prokaryotic organisms such as bacteria and archaea. These sequences are derived from DNA fragments of bacteriophages that have previously infected the prokaryote and are used to detect and destroy DNA from similar phages during subsequent infections. Hence these sequences play a key role in the antiviral (i.e. anti-phage) defense system of prokaryotes.
+Cas9 (or "CRISPR-associated protein 9") is an enzyme that uses CRISPR sequences as a guide to recognize and cleave specific strands of DNA that are complementary to the CRISPR sequence. Cas9 enzymes together with CRISPR sequences form the basis of a technology known as CRISPR-Cas9 that can be used to edit genes within organisms.This editing process has a wide variety of applications including basic biological research, development of biotechnology products, and treatment of diseases.
+Diagram of the CRISPR prokaryotic antiviral defense mechanism.
+The CRISPR-Cas system is a prokaryotic immune system that confers resistance to foreign genetic elements such as those present within plasmids and phages that provides a form of acquired immunity. RNA harboring the spacer sequence helps Cas (CRISPR-associated) proteins recognize and cut foreign pathogenic DNA. Other RNA-guided Cas proteins cut foreign RNA. CRISPR are found in approximately 50% of sequenced bacterial genomes and nearly 90% of sequenced archaea.
